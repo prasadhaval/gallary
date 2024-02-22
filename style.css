@@ -14,9 +14,7 @@
     animation: backdroup .5s ease-in-out  ;
 }
 
-#open{
-    background-color: rgb(226, 141, 43);
-}
+
 .form-container{
     background-color: white;
     width: 60rem;
