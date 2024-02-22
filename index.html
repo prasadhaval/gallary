@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="text-white bg-primary p-3 d-flex justify-content-between align-items-center">
+        <div>
+            <h2>Movie Gallary</h2>
+        </div>
+        <div>
+            <button class="btn btn-sm btn-success" id="open">Open</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row mt-3">
+            
+        </div>
+    </div>
+    <div class="backdroup  d-none" id="backdroup"></div>
+    <div class="form-container d-none" id="form-container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h4>Add Movie</h4>
+            </div>
+            <div>
+                <h4 class="x cancelBTn">-x-</h4>
+            </div>
+        </div>
+        <form id="form">
+            <div class="form-group">
+                <label for="name">Movie Name</label>
+                <input type="text" name="name" id="name" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="img">Movie Image</label>
+                <input type="text" name="img" id="img" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="reating">Movie Reating</label>
+                <input type="text" name="reating" id="reating" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group text-right">
+                <button class="btn btn-sm btn-success" type="submit" id="submit">Submit</button>
+                <button class="btn btn-sm btn-danger cancelBTn" type="button" id="cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
